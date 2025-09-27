@@ -1,6 +1,43 @@
+body{
+    background: linear-gradient(160deg,#CFD4C5,#EECFD4,#EFB9CB,#E6ADEC,#C287E8);
+}
+
 .image{
     display: flex;
     gap: 1rem;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+.heading {
+    text-align: center;
+    font-family:cursive;
+}
+
+.nav-bar{
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+
+.nav-bar a {
+    text-decoration:none;
+    color:black;
+}
+
+#paragraph{
+    text-align: center;
+}
+
+img{
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+footer{
+    text-align: center;
 }
