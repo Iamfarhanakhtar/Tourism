@@ -4,37 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TravelEase - Showcasing Destinations</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+    <!-- link to attach css file-->
+    <link rel="shortcut icon" href="airplane.png" type="image/x-icon" />
+    <!-- link to attach favicon-->
   </head>
   <body>
     <!-- Header Section -->
-    <h1>TravelEase - Showcasing Destinations</h1>
+    <div class="heading">
+      <h1>TravelEase - Showcasing Destinations</h1>
+    </div>
     <hr />
+    <!--Navbar section-->
     <nav>
-      <a href="index.html">Home</a> | <a href="#destinations">Destinations</a> |
-      <a href="#packages">Packages</a> |
-      <a href="contact.html">Contact Us</a>
+      <div class="nav-bar">
+        <a href="index.html">Home</a> |
+        <!--refresh-->
+        <a href="#destinations">Destinations</a> |
+        <!--Jump to Destinations-->
+        <a href="#packages">Packages</a> |
+        <!--jump to packages-->
+        <a href="#contact">Contact Us</a>
+        <!--jump to contact us-->
+      </div>
     </nav>
     <br />
 
-    <!-- Welcome Section -->
+    <!-- Paragraph Section -->
     <section>
       <h2>Welcome to TravelEase</h2>
-      <p>
+      <p id="paragraph">
         Welcome to <b>TravelEase</b>, your gateway to the
-        <i>world’s most beautiful destinations</i>. We make travel
+        <i>world's most beautiful destinations</i>. We make travel
         <u>affordable</u>, exciting, and memorable. Our trips are
         <del>expensive</del> budget-friendly, ensuring everyone can enjoy their
         dream vacation!
       </p>
     </section>
-    <section>
+    <section id="paragraph">
       <p>
-        At <b>TravelEase</b>, we believe that every journey tells a
-        story. Our travel plans are designed to make your trips
-        <i>comfortable</i>, <u>adventurous</u>, and unforgettable. We don’t
-        offer <del>ordinary</del> holidays, but unique experiences that bring
-        you closer to the world’s wonders!
+        At <b>TravelEase</b>, we believe that every journey tells a story. Our
+        travel plans are designed to make your trips <i>comfortable</i>,
+        <u>adventurous</u>, and unforgettable. We don't offer
+        <del>ordinary</del> holidays, but unique experiences that bring you
+        closer to the world's wonders!
       </p>
     </section>
     <hr />
@@ -44,15 +57,16 @@
       <h2>Travel Experiences</h2>
       <div class="image">
         <img src="manali.png" alt="Manali" width="400" />
-      <br /><br />
-      <img src="goa.png" alt="Goa" width="400" />
+        <img src="goa.png" alt="Goa" width="400" />
+        <img src="coimbatore.png" width="400" height="266.66" />
+        <img src="ayodhya.png" width="400" height="266.66" />
+        <img src="dehradun.png" width="400" height="266.66" />
       </div>
     </section>
-    <hr />
 
     <!-- Lists Section -->
     <section>
-      <h2>Top 5 Travel Destinations</h2>
+      <h2 id="destinations">Top 5 Travel Destinations</h2>
       <ol>
         <li>Manali</li>
         <li>Dehradun</li>
@@ -69,13 +83,24 @@
         <li>Snacks</li>
         <li>Travel Insurance</li>
       </ul>
+      <h2>Travel Glossary</h2>
+      <dl>
+        <dt>Visa :</dt>
+        <dd>An official document allowing you to enter a country.</dd>
+
+        <dt>Itinerary :</dt>
+        <dd>A detailed plan of your travel schedule.</dd>
+
+        <dt>Backpacking :</dt>
+        <dd>Traveling with minimal luggage and low cost.</dd>
+      </dl>
     </section>
     <hr />
 
     <!-- Packages Table -->
     <section>
-      <h2 id="packages">Our Travel Packages</h2>
-      <table border="1">
+      <h2>Our Travel Packages</h2>
+      <table border="1" id="packages" cellpadding="5">
         <tr>
           <th>Destination</th>
           <th>Price</th>
@@ -108,21 +133,20 @@
         </tr>
       </table>
     </section>
-    <hr/>
+    <hr />
 
-    <!-- Hyperlinks Section -->
+    <!-- Links Section -->
     <section>
       <h2>Quick Links</h2>
-      <a href="contact.html">Go to Contact Us</a><br />
       <a href="https://www.booking.com" target="_blank">Visit Booking.com</a
       ><br />
       <a href="index.html">Back to Homepage</a>
     </section>
     <hr />
 
-    <!-- Contact Us -->
+    <!-- Contact section -->
     <section>
-      <h2>Contact Us</h2>
+      <h2 id="contact">Contact Us</h2>
       <p>Email: travelease@gmail.com</p>
       <p>Phone: +91-9876543210</p>
     </section>
@@ -133,4 +157,3 @@
     </footer>
   </body>
 </html>
-
