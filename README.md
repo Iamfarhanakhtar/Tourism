@@ -19,6 +19,7 @@ This project is a static travel website built using **HTML5** to fulfill an assi
 *  Utilizes lists (`<ol>`, `<ul>`, `<dl>`) for destinations, essentials, and glossary terms.
 *  A detailed HTML table is used to present the travel packages, prices, and durations.
 *  Demonstrates the use of text styling tags like `<b>`, `<i>`, `<u>`, and `<del>`.
+*  I have also use the transition property in the quick links section.
 
 ## 🚀 How to Run
 
