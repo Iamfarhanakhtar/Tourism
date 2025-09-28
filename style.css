@@ -41,3 +41,20 @@ img{
 footer{
     text-align: center;
 }
+
+.links1{
+    text-decoration: none;
+
+}
+.links2{
+    text-decoration: none;
+
+}
+.links1:hover{
+    color: black;
+    transition: all 400ms ease-in-out 250ms;
+}
+.links2:hover{
+    color: black;
+    transition: all 400ms ease-in-out 250ms;
+}
